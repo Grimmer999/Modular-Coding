@@ -9,6 +9,7 @@ class chatbook:
         
         self.username = ''
         self.password = ''
+        self.loggedin = False
         
         self.menu()
 
