@@ -1,9 +1,13 @@
 class chatbook:
+    user_id=1
 
     
 
 
     def __init__(self):
+        self.id=chatbook.user_id
+        chatbook.user_id+=1
+
         
         
         
